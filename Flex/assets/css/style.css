@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.img-1 {
+  background-image: url(https://images.pexels.com/photos/247583/pexels-photo-247583.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  height: 750px;
+}
+.iconos {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.img-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: #ffffff;
+  letter-spacing: 0px;
+  padding: 50px;
+}
+
+.parrafo-1 {
+  font-size: 16px;
+  font: lighter;
+}
+.caracteristica {
+  background-color: #1e1a13;
+  color: #ffffff;
+  height: 200px;
+  padding: 50px;
+}
+.icono-con-texto {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icono-con-texto i {
+  font-size: 24px;
+}
+
+footer {
+  color: white;
+  background-color: #1e1a13;
+  height: 100px;
+}
+.contenedor-1 {
+  color: #ffffff;
+}
+
+.caracteristica {
+  text-align: center;
+}
+
+.icono-con-texto {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+  padding: 50px;
+}
+
+.icono-con-texto i {
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+a {
+  color: aliceblue;
+}
+.fa-brands {
+  color: #ffffff;
+  padding: 20px;
+  font-size: medium;
+}
